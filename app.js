@@ -44,7 +44,7 @@ function setupSquares() {
 		};
 
 		squares[i].addEventListener("click", function() {
-			if (this.style.background == winColor){
+			if (this.style.backgroundColor == winColor){
 				msg.textContent = "Correct!";
 				h1.style.background = winColor;
 				resetButton.textContent ="Play Again?"
